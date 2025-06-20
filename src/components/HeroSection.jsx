@@ -5,7 +5,7 @@ import heart from "../assets/heart.png";
 
 const HeroSection = () => {
   return (
-    <div className="w-full h-auto flex flex-col justify-center items-center text-md py-10 space-y-3">
+    <div className="w-full h-auto flex flex-col justify-center items-center text-md py-10 space-y-3 mt-28">
       <div className="relative w-full h-full text-center mb-5">
         <img
           src={heart}
@@ -45,6 +45,10 @@ const HeroSection = () => {
           className="absolute w-20 h-20 right-0 bottom-0"
         />
         <img src={ui} alt="ui" />
+      </div>
+      <div className="flex flex-col justify-center items-center text-center font-semibold text-xl w-[60%] h-auto">
+        <strong className="text-5xl font-bold text-gray-600">55+</strong>
+        <span>Poeple, Already in the waitlist</span>
       </div>
     </div>
   );
